@@ -1,3 +1,4 @@
+@CrossOrigin(origins = "*")
 package com.health.tracker.controller;
 
 import com.health.tracker.model.User;

@@ -1,4 +1,3 @@
-@CrossOrigin(origins = "*")
 package com.health.tracker.controller;
 
 import com.health.tracker.model.User;
@@ -12,8 +11,8 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:3000")
 public class UserController {
 
     @Autowired
